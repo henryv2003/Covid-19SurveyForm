@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body { 
+  background: url("https://qtxasset.com/cdn-cgi/image/w=850,h=478,f=auto,fit=crop,g=0.5x0.5/https://qtxasset.com/quartz/qcloud5/media/image/fiercepharma/1604320437/Blue%20Coronavirus.jpg?VersionId=StJa5f0ljFk1_Tdok8kmrazFA0cAbtaY") no-repeat center center fixed;
+  background-size: cover;
+  text-align:center;
+  font-family:'Poppins';
+}
+
+
+
+ form {
+  background: rgb(0 44 94 / 88%);;
+   max-width:800px;
+   margin:0 auto;
+   border-radius:3px;
+   padding:45px;
+   color: white;
+}
+
+.heading h1 {
+  color: white;
+  margin-top: 80px;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+.heading p {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  z-index: 3;
+}
+
+.form-group{
+  text-align:left;
+  
+
+  }
+
+.form-group label{
+  display:block;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 8px;
+  text-transform: capitalize;
+ }
+
+
+.form-group input{
+  display:block;
+  width:100%;
+  border: 1px solid;
+  padding:12px 10px;
+  border-radius:3px;
+}
+
+.form-dropdown {
+  display:block;
+  text-align:left;
+  padding-top: 30px;
+  font-size: 20px;
+  
+}
+
+.form-dropdown p{
+  padding-bottom: 8px;
+}
+
+.form-dropdown select {
+  display:block;
+  width:100%;
+  border: 1px solid;
+  padding:8px 5px;
+  border-radius:3px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.form-radio {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.form-radio label {
+  display: block;
+}
+
+.input-radio {
+  display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1rem;
+    min-width: 1.25rem;
+    margin-top: 10px;
+}
+
+
+.form-radio input, span{
+  text-transform: capitalize;
+  
+}
+
+.form-checkbox {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.form-checkbox label {
+  display: block;
+  padding-top: 15px;
+}
+
+.form-textarea {
+  text-align: left;
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+textarea {
+  margin-top: 8px;
+  resize: vertical;
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.submit-button {
+  display: block;
+    width: 100%;
+    padding: 12px;
+    background:rgb(110 255 0);
+    border-radius: 3px;
+    cursor: pointer;
+    margin:15px auto 1.25rem auto;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.submit-button:hover{
+  background-color: rgb(229, 255, 0);
+}
+
+
+

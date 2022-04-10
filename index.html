@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>covid 19 survey form</title>
+</head>
+<body>
+  <main id="main">
+    <div class="heading">
+    <h1 id=title>covid-19 survey</h1>
+    <p id="description"><i>"cronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2"</i></p>
+    </div>
+    
+    <form id="survey-form" ACTION="https://jkorpela.fi/cgi-bin/echo.cgi"
+    METHOD="POST">
+      <div class="form-group">
+      <label id="name-label" for="name">name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+     
+      <label id="email-label" for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+     
+    
+      <label id="number-label" for="number">age (optional)</label>
+        <input type="number" id="number" name="number" min="8" max="99" placeholder="Age">
+      </div>
+      <div class="form-dropdown">
+        <p>What are your concerns about covid-19 decease:</p>
+        <label for="dropdown"></label>
+        <select id="dropdown" name="dropdown">
+          <option disabled selected value>Select field</option>
+          <option value="option1">is a deadly desease</option>
+          <option value="option2">im afraid of getting infected</option>
+          <option value="option3">i don't know</option>
+        </select>
+      </div>
+      <div class="form-radio">
+        <p>Are you planning to get the covid vaccine:</p>
+        <label>
+        <input class="input-radio" name="choice"  value="yes" type="radio" checked>
+        <span>definitely</span>
+        </label>
+
+        <label>
+        <input class="input-radio" name="choice" value="maybe" type="radio">
+        <span>maybe</span>
+        </label>
+
+        <label>
+        <input class="input-radio" name="choice" value="not-sure" type="radio">
+        <span>not sure</span>
+        </label>
+
+      </div>
+
+      <div class="form-dropdown">
+        <p>What would you recommend to prevent the spread of covid?</p>
+      <label for="dropdown"></label>
+        <select id="dropdown-recomandations" name="dropdown">
+          <option disabled selected value>select field</option>
+          <option value="option1">take the vaccine</option>
+          <option value="option2">wear a mask</option>
+          <option value="option3">stay home</option>
+        </select>
+      </div>
+      <div class="form-checkbox">
+       <p>Which of the followings define your concerns about getting the vaccine:</p>
+       <label for="first-concern"></label>
+     <input class="input-checkbox" type="checkbox" id="first-concern" name="first-concern" value="I have concerns about the vaccine's side effects, long-term safety and efficacy"> I have concerns about the vaccine's side effects, long-term safety and efficacy.
+
+     <label for="second-concern"></label>
+    <input class="input-checkbox" type="checkbox" id="second-concern" name="second-concern" value="I have religious reasons"> I have religious reasons.
+
+    <label for="third-concern"></label>
+    <input class="input-checkbox" type="checkbox" id="third-concern" name="third-concern" value="I do not believe it will be a solution for coronavirus desease">
+    I do not believe it will be a solution for coronavirus desease.
+    
+    <label for="fifth-concern"> </label>
+    <input class="input-checkbox" type="checkbox" id="fourth-concern" name="fourth-concern" value="I believe it will have negative effects on my health"> I believe it will have negative effects on my health.
+  
+    <label for="fourth-concern"></label>
+    <input class="input-checkbox" type="checkbox" id="fifth-concern" name="fifth-concern" value="Other"> Other
+    </div>
+
+    <div class="form-textarea">
+      <p>please explain your reasons:</p>
+      <textarea name="reasons" rows="8" cols="70">
+      </textarea>
+      </div>
+
+      <div class="form-submit">
+        <button id="submit" class="submit-button" type="submit">Submit</button>
+      </div>
+    </form>  
+  </main>
+  </body>
+</html>
