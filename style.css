@@ -124,6 +124,7 @@ body {
   text-align: left;
   padding-top: 30px;
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 textarea {
@@ -153,4 +154,54 @@ textarea {
 }
 
 
+
+/* Media queries*/
+@media only screen and (max-width: 425px){
+	.heading h1 {
+    font-size: 30px;
+  }
+  
+  .heading p{
+    font-size: 13px;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  .form-group input {
+    padding: 10px 10px;
+}
+
+  .form-dropdown {
+  font-size: 16px;
+}
+
+  .form-dropdown select {
+  font-size: 13px;
+}
+
+  .form-radio {
+  font-size: 16px;
+}
+
+.input-radio {
+  
+  min-height: 0.5rem;
+  margin-top: 20px;
+}
+
+.form-checkbox {
+  font-size: 16px;
+}
+
+.form-textarea {
+  font-size: 16px;
+}
+
+
+
+
+
+}
 
